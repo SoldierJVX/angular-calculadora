@@ -1,3 +1,11 @@
+/**
+ * Serviço responsável por executar as operações da
+ * calculadora.
+ * 
+ * @author João Vitor R. S. Silva<jv_rss@hotmail.com>
+ * @since 1.0.0
+ */
+
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -25,10 +33,9 @@ export class CalculadoraService {
    * 
    * @param num1 number
    * @param num2 number
-   * @param operacao string - Operação a ser executada
-   * @returns number - Resultado da operação
+   * @param operacao string Operação a ser executada
+   * @return number Resultado da operação
   */
-
   calcular(num1: number, num2: number, operacao: string): number {
     let resultado: number;
 
